@@ -6,7 +6,7 @@ import seaborn as sns
 
 # Load Dataset
 def load_data():
-    df = pd.read_csv("../Data/cleaned_ecommerce_data.csv")  
+    df = pd.read_csv("..\Data\cleaned_ecommerce_data.csv")  
     # df = pd.read_csv("https://raw.githubusercontent.com/Data_Analysis_Project-Ecommerce/main/Dashboard/cleaned_ecommerce_data.csv")  
     return df
 
